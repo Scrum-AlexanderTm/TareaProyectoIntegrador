@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Suma {
+	
+	public static void main(String[] arg) {
+		
+		System.out.println("Christian Aguilar");
+		int suma;
+		
+		@SuppressWarnings("resource")
+		Scanner render = new Scanner(System.in);
+		
+		System.out.println("Proyecto Suma");
+		System.out.println("Primer número");
+		int a = render.nextInt();
+		System.out.println("Segundo número");
+		int b = render.nextInt();
+		
+		suma = a+b;
+		
+		System.out.println("La suma es: "+suma);
+	}
+
+}

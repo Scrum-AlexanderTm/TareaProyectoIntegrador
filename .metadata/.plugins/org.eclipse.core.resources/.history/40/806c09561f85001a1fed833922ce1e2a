@@ -1,0 +1,15 @@
+
+public class Tarea {
+	
+	private static int A;
+	private int B;
+	public static void main(String[] arg)
+	{
+		System.out.println("Alexander Tincopa");
+		System.out.println(A);
+		
+	}
+	
+	
+
+}
